@@ -130,3 +130,20 @@ input:hover::placeholder{
 .register-link p a:hover{
     text-decoration: underline;
 }
+
+.wrapper .login-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px ;
+
+}
+
+.login-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link p a:hover{
+    text-decoration: underline;
+}
