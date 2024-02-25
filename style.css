@@ -30,21 +30,21 @@ body{
 }
 
 .wrapper:hover{
-    
     backdrop-filter: blur(10px);
-    
 }
 
 .wrapper h1{
     font-size: 38px;
     text-align: center;
 }
+
 .wrapper .input-box {
     position: relative;
     width: 100%;
     height: 50px;
     margin: 30px 0;
 }
+
 .input-box input{
     width: 100%;
     height: 100%;
@@ -58,27 +58,28 @@ body{
     padding: 20px 45px 20px 20px;
     transition: 1s;
 }
+
 .input-box input:hover{
     background-color: rgba(245, 222, 179, 0.979);
-    color: black;
-    
+    color: black;  
 }
 
 .input-box input::placeholder {
     color: white;
 }
+
 input:hover::placeholder{
     color: black;
 }
+
 .input-box i{
-    color: rgb(146, 199, 85);
+    color: rgb(146, 119, 118);
     position: absolute;
     right: 20px;
     top: 30%;
     transform: translate(-50%);
     font-size: 20px;
 }
-
 
 .wrapper .remember-forgot{
     display: flex;
@@ -91,6 +92,7 @@ input:hover::placeholder{
     accent-color: white;
     margin: right 3px; ;
 }
+
 .remember-forgot a{
     color: white;
     text-decoration: underline;
@@ -110,15 +112,16 @@ input:hover::placeholder{
     font-weight: 600;
     transition: 1s;
 }
+
 .wrapper .btn:hover{
     background-color: rgba(245, 222, 179, 0.979);
     color: black;
 }
+
 .wrapper .register-link{
     font-size: 14px;
     text-align: center;
     margin: 20px 0 15px ;
-
 }
 
 .register-link p a {
@@ -135,7 +138,6 @@ input:hover::placeholder{
     font-size: 14px;
     text-align: center;
     margin: 20px 0 15px ;
-
 }
 
 .login-link p a {
@@ -147,3 +149,20 @@ input:hover::placeholder{
 .login-link p a:hover{
     text-decoration: underline;
 }
+
+.wrapper {
+    animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+        
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+
+    }
+    }
