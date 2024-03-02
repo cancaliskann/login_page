@@ -166,3 +166,10 @@ input:hover::placeholder{
 
     }
     }
+    .input-box i:hover {
+        cursor: pointer;
+    }
+
+    #pass {
+        cursor: pointer;
+    }
